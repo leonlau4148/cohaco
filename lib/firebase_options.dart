@@ -52,10 +52,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDVX6KK--FrZ2RwM3jJtnI6rk5zR1grDIE',
-    appId: '1:53362262:android:114ecd92843b94dc1605f7',
-    messagingSenderId: '53362262',
-    projectId: 'cohaco-e1541',
-    storageBucket: 'cohaco-e1541.firebasestorage.app',
+    apiKey: 'key',
+    appId: 'key',
+    messagingSenderId: 'key',
+    projectId: 'key',
+    storageBucket: 'key',
   );
 }

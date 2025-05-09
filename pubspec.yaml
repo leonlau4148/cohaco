@@ -1,0 +1,48 @@
+name: cohaco
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_statusbarcolor_ns: ^0.6.0
+  curved_navigation_bar: ^1.0.6
+  flutter_slidable: ^3.1.1
+  flutter_bloc: ^8.1.6
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  flutter_secure_storage: ^9.2.2
+  connectivity_plus: ^6.1.0
+  http: ^1.2.2
+  provider: ^6.1.2
+  multicast_dns: ^0.3.2+7
+  intl: ^0.19.0
+  firebase_database: ^11.1.4
+  cloud_functions: ^5.1.4
+  web_socket_channel: ^3.0.1
+  flutter_launcher_icons: ^0.14.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/play_store_512.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon_facebook.png
+    - assets/icon_google.png
+    - assets/cohacologo.png
+    - assets/play_store_512.png 
